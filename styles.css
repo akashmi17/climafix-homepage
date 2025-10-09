@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+#summit-overview {
+    padding: 40px 0;
+    background-color: #e6f7ff;
+    text-align: center;
+}
+
+#summit-overview h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#summit-overview p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#summit-year-highlights {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+#summit-year-highlights h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.summit-year {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.summit-year h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.summit-year p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.summit-year a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.summit-year a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
